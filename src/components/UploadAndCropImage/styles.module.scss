@@ -1,0 +1,49 @@
+.UploadAndCropImage{
+  display: grid;
+  a{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 2px auto;
+  }
+
+  h1{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  p{
+    margin: 0;
+    font-size: 16px;
+    color: white;
+  }
+
+  button{
+    position: absolute;
+    z-index: 999999;
+    bottom: 20%;
+    left: 40%;
+    margin: 0 auto;
+    padding: 8px 10px;
+    right: 40%;
+    border: 0;
+    background-color: #fd0001;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+
+  }
+
+  .CroppedImage{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
